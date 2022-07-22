@@ -1,1 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*
+{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 
+}
+.header
+{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8) ) ,url(./asset/Background.jpeg);
+
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.nav_right
+{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+.nav_left img
+{
+    height: 36px;
+}
+.nav_right .l_selector
+{
+    background-color: transparent;
+    color: white;
+    padding: 8px 22px;
+    border: 1px solid white;
+}
+.dp
+{
+    background-color: grey;
+    color: white;
+    border: none;
+}
+.email
+{
+    text-align: center;
+}
+.sign_in_btn
+{
+    background-color: #e50914;
+    
+    padding: 7px 17px;
+    
+    font-weight: 400;
+    line-height: normal;
+}
+.sign_in_btn a,.sign_in_btn a:visited
+{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.second
+{
+    margin-top: 110px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main
+{
+    font-size: 3.125rem;
+    color: white;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+.main_2
+{
+    font-size: 1.625rem;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.main_3
+{
+    font-size: 1.2rem;
+    color: white;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.input
+{
+    padding: 26px;
+    min-width: 450px;
+    font-size: 20px;
+}
+.btn-3
+{
+    padding: 26px;
+    min-height: 60px;
+    min-width: 200px;
+    background-color: #e50914;
+    color: white;
+    font-size: 20px;
+}
+.btn-3:hover
+{
+    cursor: pointer;
+    background-color: #f40612;
+}
+.line
+{
+    background-color:rgb(43, 42, 42);
+    height: 7px;
+    border:none;
+}
+.third, .fourth, .fifth , .sixth
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.third_left, .fourth_right, .fifth_left ,.sixth_right
+{
+    width: 40%;
+}
+.third_right, .fourth_left, .fifth_right, .sixth_left
+{
+    width: 45%;
+}
+.third_right video, .fifth_right video
+{
+    width: 100%;
+}
+.fourth_left video
+{
+    width: 80%;
+}
+.sixth_left img
+{
+    width: 100%;
+}
+.main_faq
+{
+        font-size: 3.125rem;
+        color: white;
+        line-height: 1.1;
+        margin-bottom: 30px;
+        text-align: center;
+}
+.faq
+{
+    background-color: black;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 70px 45px;
+}
+.title
+{
+    background: #303030;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.last
+{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.icon
+{
+    width: 20px;
+    position: relative;
+}
+.icon::before, .icon::after
+{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    top: -1.5px;
+}
+.icon::after
+{
+    transform: rotate(90deg);
+    transition: 0.5s linear;
+}
+.text
+{
+    background: #303030;
+    line-height: 35px;
+    margin: 3px 0;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 400;
+    height: 0;
+    opacity: 0;
+}
+.item:target .text
+{
+    opacity: 1;
+    height: auto;
+    padding: 20px 30px;
+    margin: 0;
+    border-top: 2px solid #000;
+    margin-bottom: 6px;
+}
+.item:target .icon::after
+{
+    transform: rotateY(45deg);
+}
+.footer
+{
+    background-color: #000;
+    color: #737373;
+    font-size: 1em;
+    padding: 70px 45px;
+}
+.num
+{
+    margin-bottom: 30px;
+}
+.links
+{
+    display: flex;
+      flex-direction: row;
+      width:100%;
+      justify-content:space-around;
+      flex-wrap: wrap;
+}
+.column 
+{
+    color:#737373;
+    height:200px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.column p a,.column p a:visited
+{
+    color:#737373;
+    text-decoration: none;
+}
+.column p a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+
+
+.footer_selector .l_selector
+{
+    background-color: transparent;
+    color:#737373;
+    padding: 8px 22px;
+    border: 1px solid #737373;
+}
+.footer_end
+{
+    margin-top: 24px;
+}
+
+
+@media screen and (max-width:787px) {
+    
+    .second
+    {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:496px) {
+    .nav_left img 
+    {
+        height: 45px;
+    }
+    .second
+    {
+        padding: 25px;
+        margin-top: 0px;
+    }
+    .main
+    {
+        font-size: 2rem;
+    }
+    .main_2{
+        font-size: 1.2rem;
+    }
+    .main_3
+    {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .input {
+        padding: 10px;
+        min-width: 200px;
+    }
+    .btn-3 {
+        padding: 10px;
+        min-height: 0px;
+        min-width: 150px;
+    }
+    .title
+    {
+        font-size: 1.2rem;
+        padding: 10px 15px;
+    }
+    .faq
+    {
+        width: 100%;
+    }
+    .column
+    {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:458px)
+{
+    .nav_right
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav_left img
+    {
+        height: 55px;
+    }
+    .sign_in_btn
+    {
+        padding: 2px 15px;
+    }
+    .nav_right .l_selector
+    {
+        padding: 2px 15px;
+    }
+    .third, .fourth, .fifth , .sixth
+    {
+        flex-direction: column;
+    }
+    .third_left, .fourth_right, .fifth_left ,.sixth_right
+    {
+        width:90%;
+        text-align: center;
+    }
+    .third_right, .fourth_left, .fifth_right, .sixth_left
+    {
+        width: 70%;
+        text-align: center;
+    }
+
+}
