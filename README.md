@@ -21,13 +21,14 @@ This project is to showcase my own skills.
 
 ## Live Link
 
- - [Click here](https://cozy-centaur-3e8a26.netlify.app/)
+ - [Click here](https://legendaniket.github.io/netflix-clone/)
 
 
 
 ## Project Structure
 
-![flow](https://user-images.githubusercontent.com/108210905/177208843-40f22daf-d29d-4447-8d00-bf92cf413162.png)
+![Screenshot 2022-07-22 074041](https://user-images.githubusercontent.com/108210905/180348170-c765cb37-0e72-47eb-b4da-04c2a7e7349d.jpg)
+
 
 ## Getting Started with the App
 
